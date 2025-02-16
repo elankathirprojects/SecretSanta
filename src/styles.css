@@ -1,0 +1,57 @@
+/* body {
+  background-image: url('/public/assets/santa-claus.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}   */
+  .header {
+    background: #007bff;
+    color: white !important;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+  }
+
+  .btn {
+    background: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .container {
+    padding: 20px;
+    text-align: center;
+    /* background-color: aliceblue; */
+  }
+  .table{
+    border: 2px solid black;
+    text-align: justify;
+    padding: 50px;
+  }
+  .samplecsv{
+    color: yellowgreen;
+    text-decoration: underline;
+    font-size: 15px;
+  }
+  .samplecsv:hover{
+    cursor: pointer;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer {
+      position: static;
+    }
+  }
+  
